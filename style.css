@@ -17,6 +17,9 @@
     --cinza: #f0f0f0;
     --white: #ffffff;
 }
+html{
+    overflow-x: hidden;
+}
 body{
     background-color: var(--azulEscuro);
     color: var(--white);
@@ -75,4 +78,26 @@ body{
     gap: 10px;
     position: absolute;
     right: 15%;
+}
+.lang{
+    font-family: "Poppins", sans-serif;
+    background-color: var(--azulClaro);
+    color: var(--azulEscuro);
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 72px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.lang__item{
+    width: 450px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lang__item h3{
+    font-size: 48px;
 }
