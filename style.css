@@ -42,11 +42,22 @@ body{
     text-align: left;
 }
 .nav__button{
-    background: transparent;
+    background: var(--azulPiscina);
+    font-family: "Poppins", sans-serif;
+    border-radius: 8px;
     border: none;
     color: var(--azulClaro);
     margin-top: 8px;
     cursor: pointer;
+    padding: 8px;
+    font-size: 16px;
+    text-align: left;
+    transition: 0.3s ease-out;
+}
+.nav__button:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+
 }
 .nav__photo{
     width: 50%;
