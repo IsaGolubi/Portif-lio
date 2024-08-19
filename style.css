@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Spirax&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -21,8 +20,8 @@ html{
     overflow-x: hidden;
 }
 body{
-    background-color: var(--azulEscuro);
-    color: var(--white);
+    background-color: rgb(16, 15, 15);
+    color: white;
 }
 .header-nav{
     display: flex;
@@ -45,7 +44,7 @@ body{
     text-align: left;
 }
 .nav__button{
-    background: var(--azulPiscina);
+    background: grey;
     font-family: "Poppins", sans-serif;
     border-radius: 8px;
     border: none;
@@ -79,14 +78,25 @@ body{
     position: absolute;
     right: 15%;
 }
-.lang{
+.container__lang{
+    display: flex;
+    flex-direction: column;
+    border-top-style: solid;
+    border-width: 1px;
+    align-items: center;
+    padding: 96px 0;
+}
+.container__lang h2{
     font-family: "Poppins", sans-serif;
-    background-color: var(--azulClaro);
-    color: var(--azulEscuro);
+    font-size: 52px;
+    text-shadow: rgb(177, 177, 183) 1px 0 10px;
+}
+.lang{
+    font-family: "Lato", sans-serif;
+    color: white;
     display: flex;
     justify-content: center;
     gap: 32px;
-    padding: 72px;
     flex-wrap: wrap;
     width: 100%;
 }
@@ -99,5 +109,5 @@ body{
     align-items: center;
 }
 .lang__item h3{
-    font-size: 48px;
+    font-size: 35px;
 }
