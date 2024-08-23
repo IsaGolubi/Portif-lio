@@ -46,6 +46,7 @@ body{
 .nav__button {
     width: 150px;
     height: 40px;
+    margin-top: 32px;
     border: none;
     outline: none;
     color: #fff;
