@@ -20,7 +20,7 @@ html{
     overflow-x: hidden;
 }
 body{
-    background-color: rgb(16, 15, 15);
+    background: radial-gradient(circle, rgb(45, 44, 44) 0%, rgba(0,0,0,1) 100%);
     color: white;
 }
 .header-nav{
@@ -167,6 +167,8 @@ body{
     width: 100%;
     justify-content: space-around;
     padding: 32px;
+    font-size: 25px;
+    text-shadow: rgb(177, 177, 183) 1px 0 10px;
 }
 .projects__itens{
     display: flex;
@@ -176,4 +178,12 @@ body{
 }
 .projects__itens img{
     width: 550px;
+}
+.projects__itens p{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    margin: 15px;
+    border-bottom-style: solid;
+    border-width: 1px;
 }
