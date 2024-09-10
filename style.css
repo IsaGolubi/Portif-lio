@@ -12,10 +12,13 @@ body{
     color: white;
 }
 .header-nav{
-
+    padding: 48px;
 }
 .nav__title{
-
+    display: flex;
+}
+.title__itens{
+    color: white;
 }
 .nav__title h1{
     font-family: "Poppins", sans-serif;
@@ -89,13 +92,11 @@ body{
     top: 0;
     border-radius: 10px;
 }
-
 @keyframes glowing {
     0% { background-position: 0 0; }
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
-
 .nav__photo{
     width: 50%;
     position: relative;
@@ -108,8 +109,13 @@ body{
 }
 .nav__list{
     display: flex;
-    width: 100%;
+    width: 90%;
     color: white;
+    padding: 24px;
+    gap: 24px;
+    font-size: 24px;
+    justify-content: flex-end;
+    margin-right: 32px;
 }
 .nav__list li{
     list-style: none;
@@ -198,9 +204,6 @@ body{
     padding: 72px 0;
     border-top: 1px solid white;
 }
-.form__left{
-
-}
 .form__left h2{
     text-shadow: -4px 5px 11px rgba(161, 161, 161, 1);
     font-family: "Poppins", sans-serif;
@@ -215,4 +218,3 @@ body{
     display: flex;
     flex-direction: column;
 }
-/* Estilizar contatos */
