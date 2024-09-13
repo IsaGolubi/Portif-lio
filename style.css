@@ -13,23 +13,23 @@ body{
 }
 .header-nav{
     padding: 48px;
+    
 }
 .nav__title{
     display: flex;
+    justify-content: center;
+    gap: 80px;
+    width: 100%;
+    padding: 32px;
 }
 .title__itens{
+    width: 50%;
     color: white;
 }
 .nav__title h1{
     font-family: "Poppins", sans-serif;
     font-weight: bold;
     text-shadow: -4px 5px 11px rgba(161, 161, 161, 1); 
-}
-.nav__title p{
-    font-size: 40px;
-    line-height: 30px;
-    text-align: center;
-    font-family: "Lato", sans-serif;
 }
 #title-descr{
     font-size: 18px;
@@ -99,7 +99,7 @@ body{
 }
 .nav__photo{
     width: 50%;
-    position: relative;
+ 
     display: flex;
     justify-content: center;
     margin-top: 30px;
@@ -107,23 +107,11 @@ body{
 .nav__photo img{
     height: 80%;
 }
-.nav__list{
-    display: flex;
-    width: 90%;
-    color: white;
-    padding: 24px;
-    gap: 24px;
-    font-size: 24px;
-    justify-content: flex-end;
-    margin-right: 32px;
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3E%3Cpath fill-rule='evenodd' d='M1.5 12.5a.75.75 0 01.75-.75h12.5a.75.75 0 010 1.5H2.25a.75.75 0 01-.75-.75zm0-5.75a.75.75 0 01.75-.75h12.5a.75.75 0 010 1.5H2.25a.75.75 0 01-.75-.75zm0-5.75a.75.75 0 01.75-.75h12.5a.75.75 0 010 1.5H2.25a.75.75 0 01-.75-.75z'/%3E%3C/svg%3E");
 }
-.nav__list li{
-    list-style: none;
-}
-.nav__list a{
-    text-decoration: none;
-    color: white;
-}
+/* Menu boostrap */
+
 .container__lang{
     display: flex;
     flex-direction: column;
@@ -215,6 +203,14 @@ body{
     margin-top: 16px;
 }
 .form__right{
+    font-family: "Lato", sans-serif;
     display: flex;
     flex-direction: column;
+    
+}
+.form__right label{
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+
 }

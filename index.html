@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <script defer src="./main.js"></script>
 
@@ -14,27 +17,54 @@
 
 <body>
     <header class="header-nav">
-        
-        <ul class="nav__list">
+        <!-- <ul class="nav__list">
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projetos">Projetos</a></li>
             <li><a href="#contato">Contato</a></li>
-        </ul>
+        </ul> -->
+
+        <nav class="navbar navbar-expand-lg bg-transparent">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" aria-current="page" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#projetos">Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#contato">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
         <div class="nav__title">
-            <div class="title__itens"> 
+            <div class="title__itens">
                 <h1>Isabella Golubiewski Silva</h1>
-                <p id="title-descr">Sou uma pessoa muito criativa com uma imaginação muito fértil, adoro criar histórias,
-                    personagens, designs, roupas, cenários, sites, jogos, desenhos e sonho em um dia poder dar vida a todas
+                <p id="title-descr">Sou uma pessoa muito criativa com uma imaginação muito fértil, adoro criar
+                    histórias,
+                    personagens, designs, roupas, cenários, sites, jogos, desenhos e sonho em um dia poder dar vida a
+                    todas
                     as minhas criações. Uso óculos, tenho cabelos longos, pretos e ondulados, pele café com leite, olhos
-                    escuros, moro com minha mãe e uma gata cega chamada Princesa, minha matéria favorita é História e a que
+                    escuros, moro com minha mãe e uma gata cega chamada Princesa, minha matéria favorita é História e a
+                    que
                     eu mais odeio é Matemática, sou autista, adoro conhecimento por causa do meu pai e
                     tenho muita facilidade com inglês e línguas, tenho um único melhor amigo, adoro
                     gatos e no futuro pretendo trabalhar com programação, desenho e design.</p>
                 <button class="nav__button" type="button">SAIBA MAIS!</button>
             </div>
-            <div class="nav__photo">
+            <figure class="nav__photo">
                 <img src="./fundo.jpg">
-            </div>
+            </figure>
         </div>
     </header>
 
@@ -97,15 +127,15 @@
     <section class="container__form" id="contato">
 
         <!-- Sessão Esquerda -->
-         <div class="form__left">
+        <div class="form__left">
             <h2>Contate - nos</h2>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>(x) xxxx - xxxx</p>
-         </div>
+            <p>Rua Felisberto Modenesi 462</p>
+            <p>AP 302</p>
+            <p>Bela Vista / Aracruz - ES</p>
+            <p>(27) 99689 - 2687 </p>
+        </div>
 
-         <!-- Sessão Direita -->
+        <!-- Sessão Direita -->
         <form class="form__right">
             <label>Nome</label>
             <input placeholder="Digite seu nome" type="text">
