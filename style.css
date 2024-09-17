@@ -20,7 +20,7 @@ body{
     
 }
 .nav-link:hover{
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid rgb(254, 39, 39);
 
 }
 .nav__title{
@@ -184,6 +184,7 @@ body{
 }
 .projects__itens p{
     display: flex;
+    text-align: center;
     font-size: 20px;
     justify-content: center;
     margin: 15px;
@@ -222,6 +223,9 @@ body{
     font-size: 20px;
     font-style: oblique;
 }
+footer{
+    text-align: center;
+}
 @media (max-width: 769px) {
     .nav__title{
         width: 100%;
@@ -244,5 +248,9 @@ body{
     }
     .header-nav{
         padding: 0;
+    }
+    .container__form{
+        flex-direction: column;
+        align-items: center;
     }
 }
