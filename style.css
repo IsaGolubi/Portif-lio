@@ -253,4 +253,7 @@ footer{
         flex-direction: column;
         align-items: center;
     }
+    .projects__itens img{
+        width: 85%;
+    }
 }
