@@ -38,7 +38,7 @@ Confira a demonstração do site: [Portfólio](https://portif-lio-gamma-ruddy.ve
 
 Clone o repositório
 ```bash
-git clone https://github.com/IsaGolubi/Portif-lio.git
+git clone https://github.com/isagodev/Portif-lio.git
 ```
 
 ## Installation and usage
